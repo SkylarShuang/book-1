@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T08:31:39.295Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="yG4uPUm7lJXZv82ZsZrd" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T08:56:41.879Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="LkDHytLFAesJxbmfykc9" version="24.0.7" type="github">
   <diagram name="第 1 页" id="nx1unRFZVy5Btq1K-cxF">
-    <mxGraphModel dx="2897" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3311" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,26 +13,17 @@
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-1077.5" y="40" width="277.5" height="740" as="geometry" />
         </mxCell>
-        <mxCell id="ghOKUxsMMZJnxbuhPEA2-1" value="&lt;div&gt;加载图层数据&lt;/div&gt;loadGraphData" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ghOKUxsMMZJnxbuhPEA2-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-1" target="ghOKUxsMMZJnxbuhPEA2-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ghOKUxsMMZJnxbuhPEA2-1" value="&lt;div data-sider-select-id=&quot;3576c823-d022-426f-98e3-9527af858550&quot;&gt;加载图层数据&lt;/div&gt;loadGraphData" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-443.75" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ghOKUxsMMZJnxbuhPEA2-3" value="loadDefault" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ghOKUxsMMZJnxbuhPEA2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-5" target="ghOKUxsMMZJnxbuhPEA2-6">
+        <mxCell id="ghOKUxsMMZJnxbuhPEA2-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-6" target="ghOKUxsMMZJnxbuhPEA2-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ghOKUxsMMZJnxbuhPEA2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-5" target="ghOKUxsMMZJnxbuhPEA2-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ghOKUxsMMZJnxbuhPEA2-5" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;registerNodeDef&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="330" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ghOKUxsMMZJnxbuhPEA2-6" value="注册&lt;span style=&quot;color: rgb(78, 201, 176); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;ComfyNode&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ghOKUxsMMZJnxbuhPEA2-8" value="注册通用事件&lt;div&gt;&lt;p style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span data-sider-select-id=&quot;aa86c77f-d64e-4fb0-a2cd-4da0fef66d11&quot; style=&quot;color: #dcdcaa;&quot;&gt;addDrawBackgroundHandler&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span data-sider-select-id=&quot;aa86c77f-d64e-4fb0-a2cd-4da0fef66d11&quot; style=&quot;color: #dcdcaa;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span data-sider-select-id=&quot;0a55306f-9926-4156-b938-f566c043c424&quot; style=&quot;color: #dcdcaa;&quot;&gt;addNodeContextMenuHandler&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span data-sider-select-id=&quot;0a55306f-9926-4156-b938-f566c043c424&quot; style=&quot;color: #dcdcaa;&quot;&gt;addNodeKeyHandler&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="390" width="200" height="130" as="geometry" />
+        <mxCell id="ghOKUxsMMZJnxbuhPEA2-6" value="注册ComfyNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-721.25" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-10" target="ghOKUxsMMZJnxbuhPEA2-13">
           <mxGeometry relative="1" as="geometry" />
@@ -41,7 +32,7 @@
           <mxGeometry x="-1000" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-11" value="&lt;h1 data-sider-select-id=&quot;8ff9f4fe-eee0-46c6-9523-b0862877cac9&quot; style=&quot;margin-top: 0px; font-size: 16px;&quot;&gt;&lt;font data-sider-select-id=&quot;c0d7864f-1dba-449e-b362-3fb83cd5a689&quot; style=&quot;font-size: 16px;&quot;&gt;启动步骤&lt;/font&gt;&lt;/h1&gt;&lt;pre data-sider-select-id=&quot;61eba9ac-9121-46bc-870a-1d1d9ea7efc4&quot; style=&quot;&quot;&gt;&lt;font data-sider-select-id=&quot;93c682fb-d7e4-4801-a4fe-b95a7225c559&quot; style=&quot;font-size: 12px;&quot;&gt;1.设置用户信息&lt;/font&gt;&lt;/pre&gt;&lt;p style=&quot;&quot; data-sider-select-id=&quot;7fbae559-2821-462e-af07-a42914e647a1&quot;&gt;2.load用户设置&lt;/p&gt;&lt;p data-sider-select-id=&quot;7fbae559-2821-462e-af07-a42914e647a1&quot;&gt;3.加载插件&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1320" y="130" width="180" height="120" as="geometry" />
+          <mxGeometry x="-1257.5" y="90" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-13" target="ghOKUxsMMZJnxbuhPEA2-14">
           <mxGeometry relative="1" as="geometry" />
@@ -62,7 +53,7 @@
           <mxGeometry x="-1000" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-17" value="&lt;h1 style=&quot;text-align: left; margin-top: 0px; font-size: 16px;&quot; data-sider-select-id=&quot;8ff9f4fe-eee0-46c6-9523-b0862877cac9&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; data-sider-select-id=&quot;22168d53-ca9c-4329-b56d-df90a2c20b71&quot;&gt;注册事件&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: left; margin-top: 0px;&quot; data-sider-select-id=&quot;8ff9f4fe-eee0-46c6-9523-b0862877cac9&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot; data-sider-select-id=&quot;ef9b04dd-d9d5-450b-9e36-86733ccc6282&quot;&gt;1.注册监听鼠标的相关事件&amp;nbsp;&lt;/span&gt;&lt;font data-sider-select-id=&quot;c71e00ec-7798-40bc-abf9-863f196ca421&quot; style=&quot;font-size: 12px;&quot;&gt;addProcessMouseHandler&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2.注册键盘相关事件&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3.监听ComfyUI的API相关事件&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1320" y="350" width="242.5" height="160" as="geometry" />
+          <mxGeometry x="-1257.5" y="280" width="242.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-19" target="ghOKUxsMMZJnxbuhPEA2-20">
           <mxGeometry relative="1" as="geometry">
@@ -75,11 +66,14 @@
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-19" value="启动LiteGraph&lt;div&gt;LGraphCanvas.start&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1000" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ghOKUxsMMZJnxbuhPEA2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-20" target="ghOKUxsMMZJnxbuhPEA2-21">
+        <mxCell id="ghOKUxsMMZJnxbuhPEA2-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-20" target="ghOKUxsMMZJnxbuhPEA2-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-20" value="注册节点&lt;div&gt;registerNode&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-721.25" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ghOKUxsMMZJnxbuhPEA2-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-21" target="ghOKUxsMMZJnxbuhPEA2-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-21" value="&lt;div data-sider-select-id=&quot;83dca9c4-7123-4eb7-8799-b854965c85a1&quot;&gt;加载工作流&lt;/div&gt;&lt;div data-sider-select-id=&quot;83dca9c4-7123-4eb7-8799-b854965c85a1&quot;&gt;loadWorkflow&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-443.75" y="130" width="120" height="60" as="geometry" />
@@ -92,6 +86,20 @@
         </mxCell>
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-33" value="工作流模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-488.75" y="50" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ghOKUxsMMZJnxbuhPEA2-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-37" target="ghOKUxsMMZJnxbuhPEA2-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-540" y="390" />
+              <mxPoint x="-540" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ghOKUxsMMZJnxbuhPEA2-37" value="注册ComfyNode的&lt;div&gt;相关事件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-721.25" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ghOKUxsMMZJnxbuhPEA2-44" value="&lt;div data-sider-select-id=&quot;3576c823-d022-426f-98e3-9527af858550&quot;&gt;处理node节点&lt;/div&gt;&lt;div data-sider-select-id=&quot;3576c823-d022-426f-98e3-9527af858550&quot;&gt;的一些数据&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-443.75" y="370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
