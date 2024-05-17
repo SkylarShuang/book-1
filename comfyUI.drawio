@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T08:56:41.879Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="LkDHytLFAesJxbmfykc9" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T08:56:59.694Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="GuTeG540emQQLhUyZsnp" version="24.0.7" type="github">
   <diagram name="第 1 页" id="nx1unRFZVy5Btq1K-cxF">
     <mxGraphModel dx="3311" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,7 +53,7 @@
           <mxGeometry x="-1000" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-17" value="&lt;h1 style=&quot;text-align: left; margin-top: 0px; font-size: 16px;&quot; data-sider-select-id=&quot;8ff9f4fe-eee0-46c6-9523-b0862877cac9&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; data-sider-select-id=&quot;22168d53-ca9c-4329-b56d-df90a2c20b71&quot;&gt;注册事件&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;text-align: left; margin-top: 0px;&quot; data-sider-select-id=&quot;8ff9f4fe-eee0-46c6-9523-b0862877cac9&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot; data-sider-select-id=&quot;ef9b04dd-d9d5-450b-9e36-86733ccc6282&quot;&gt;1.注册监听鼠标的相关事件&amp;nbsp;&lt;/span&gt;&lt;font data-sider-select-id=&quot;c71e00ec-7798-40bc-abf9-863f196ca421&quot; style=&quot;font-size: 12px;&quot;&gt;addProcessMouseHandler&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2.注册键盘相关事件&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3.监听ComfyUI的API相关事件&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1257.5" y="280" width="242.5" height="160" as="geometry" />
+          <mxGeometry x="-1257.5" y="380" width="242.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="ghOKUxsMMZJnxbuhPEA2-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" edge="1" parent="1" source="ghOKUxsMMZJnxbuhPEA2-19" target="ghOKUxsMMZJnxbuhPEA2-20">
           <mxGeometry relative="1" as="geometry">
